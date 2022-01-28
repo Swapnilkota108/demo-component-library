@@ -1,0 +1,63 @@
+body{
+    background: rgb(191, 190, 190);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.text_tab--container{
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#775ada ;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.text_tab--tab{
+    padding: 10px;
+}
+
+.icon_tab--container{
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#775ada ;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icon_tab--phone{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+
+.icon_tab--heart{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_tab--location{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

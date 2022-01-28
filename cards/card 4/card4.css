@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle:wght@300&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --primary_color:#9c1de7;
+}
+
+body{
+    background:#fff ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.image_card-container{
+    background: #fff;   
+    height: 350px;
+    width: 220px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 8px 5px 5px rgb(177, 176, 176);
+}
+
+.image_card-image_container  img{
+    height:auto ;
+    width: 100%;
+    box-shadow: 0 2px var(--primary_color);
+}
+
+.image_card-body{
+    font-size: 14px;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.image_card-body > *{
+    margin: 4px;
+}
+
+.image_card-body h6{
+    color:rgb(101, 101, 101) ;
+}
+
+.image_card_body-button{
+    height: 25px;
+    width: 89px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid var(--primary_color);
+    background: #fff;
+    color: rgb(101, 101, 101);
+    cursor: pointer;
+}

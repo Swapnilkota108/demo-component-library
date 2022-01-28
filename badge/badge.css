@@ -1,0 +1,82 @@
+
+.badge_container{
+    height: 35px;
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+}
+
+
+
+.text_badge{
+    height: 20px;
+    width: 20px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    top: -10px;
+}
+
+.large_badge{
+    height: 20px;
+    width: 20px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.button_badge{
+    height: 20px;
+    width: 20px;
+    background: #3d5af1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: #fff;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+
+.button_badge-btn{
+    height: 30px;
+    width: 100px;
+    background: #0e153a;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.icon_badge-icon{
+    font-size: 30px;
+}
+
+.icon_badge{
+    font-size: 10px;
+    height: 22px;
+    width: 22px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: #fff;
+    position: relative;
+    top: -15px;
+    left: -10px;
+}

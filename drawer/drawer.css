@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Balsamiq+Sans&family=Dongle:wght@300&family=Lato&family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Amatic SC', cursive;
+
+    font-family: 'Architects Daughter', cursive;
+
+    font-family: 'Balsamiq Sans', cursive;
+
+    font-family: 'Dongle', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.drawer_container{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width:250px;
+}
+
+.drawer_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 20%;
+    margin:0 10px 0;
+}
+.drawer_title h4{
+    color: #9a9a9a;
+}
+
+.title{
+    margin: 0;
+}
+
+.drawer_element-container{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0 10px 0;
+}
+
+.drawer_elements{
+    display: flex;
+    border-radius:6px;
+    cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.drawer_elements:nth-child(1){
+    background:#fcb1b1 ;
+    border-radius: 6px;
+}
+.drawer_elements i{
+    margin: 0 25px 0 10px;
+}
+.drawer_elements:hover{
+    background: rgb(184, 184, 184) ;
+}
