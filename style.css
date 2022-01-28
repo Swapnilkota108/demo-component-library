@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Balsamiq+Sans&family=Dancing+Script:wght@600&family=Dongle:wght@300;400&family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dongle', sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 35px;
+    width: 80px;
+    margin: 20px;  
+    padding: 10px; 
+    font-size: 20px;
+    background:linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
+    border-radius: 3px;
+    border: 1px solid black;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+
+}
